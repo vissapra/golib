@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	assert "github.com/vissapra/golib/pkg/assertion"
+	"github.com/vissapra/golib/pkg/assert"
 )
 
 func TestConfig_GetEnvInt(t *testing.T) {
